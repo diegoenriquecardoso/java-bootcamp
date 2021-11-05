@@ -34,6 +34,22 @@ A sigla SHA significa Security Hash Algorithm, é um conjunto de funções hash 
 
 **Commit**: Objeto de junção de todos os outros, aponta para Trees, Parents, Autor, timestamp e mensagem e também sha1. Dá significado para alterações em arquivos.
 
+# Comandos e conceitos de Git
+
+**Git Init**: Inicializa um repositório
+
+**Tracked**/**Untracked**: Tracked se subdivide em três estágios diferentes que ciclam-se: **unmodified**(intocado), **modified**(com modificações feitas) e **staged**(onde ficam os arquivos preparados para fazer parte de outro agrupamento, para **fazer parte de um commit**).
+
+**Git Add**: Move um arquivo untracked direto para staged.
+![image](https://user-images.githubusercontent.com/93105584/140437584-5b542038-67d6-4df9-b1d0-30f4687f18f4.png)
+
+**Git Restore**: Tira um ou mais arquivos do status de Staged.
+
+**Git Status**: Diz se um arquivo está Untracked, Unmodified ou Staged
+
+**Repositório**
+
+![image](https://user-images.githubusercontent.com/93105584/140438099-e87d288f-8cfe-4371-ac01-663be17e84f7.png)
 
 
 
