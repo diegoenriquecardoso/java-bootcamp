@@ -53,7 +53,7 @@ A sigla SHA significa Security Hash Algorithm, é um conjunto de funções hash 
 
 Como adicionar de um repositório local para um repositório remoto: Criar o repositório no github, copiar seu link, empurra de um para o outro, primeiramente se adicionando a origem através de:
 
-> git remote add \<nome-do-arquivo>\<link-do-repositório
+> git remote add \<nome-do-arquivo> \<link-do-repositório>
 
 E então:
 
