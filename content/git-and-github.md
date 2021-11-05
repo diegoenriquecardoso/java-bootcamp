@@ -59,7 +59,7 @@ E então:
 
 > git remote -v 
 
-E por fim
+E por fim:
 
 > git push \<nome-do-arquivo> master
 
