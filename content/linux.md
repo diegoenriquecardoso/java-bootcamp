@@ -1,4 +1,8 @@
-# Conhecendo o Terminal
+# Linux 
+
+## Introdução
+
+## Conhecendo o Terminal
 
 Para acessá-lo basta buscá-lo na Taskbar ou utilizar o comando `Ctrl + Alt + T`, há uma série de comandos para se lembrar:
 
