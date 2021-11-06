@@ -50,3 +50,31 @@ Para acessá-lo basta buscá-lo na Taskbar ou utilizar o comando `Ctrl + Alt + T
 14. Limpe o terminal
 15. Utilize o comando para sair do terminal
 
+## Lidando com arquivos .txt
+
+Primeiramente, criamos um arquivo.txt e em seguida o comando `nano.txt` para abri-lo em um editor de textos.
+
+| Atalhos | Função | 
+| --- | --- | 
+| `Ctrl + J` | Justifica o texto | 
+| `Alt + U ` | Desfaz a última ação | 
+| `Alt + E` | Refaz a última ação |
+| `Alt + A` | Marca o Texto |
+| `Alt + 6` | Copia o Texto | 
+| `Ctrl + U` | Cola o texto |
+| `Ctrl + T` | Verifica a ortografia(apenas em inglês) |
+| `Ctrl + /` | Substitui termos no arquivo | 
+| `Ctrl + O` | Salvar o texto | 
+| `Ctrl + X` | Fecha o nano |
+| `Cat + [nome do arquivo]` | Vizualizar o arquivo fora do nano |
+| `Tac + [nome do arquivo]` | Vizualiza o arquivo com as linhas invertidas |
+| `Head + [nome do arquivo]` | Mostra as 10 primeiras linhas de um arquivo |
+| `Tail + [nome do arquivo]` | Mostra as 10 últimas linhas de um arquivo |
+| `>` | Direciona um comando para outra entrada |
+| `<` | TDireciona a entrada de um arquivo para a saída de um comando |
+| `>>` | Adiciona um novo comando a um arquivo |
+| `cal` | Mostra o calendário do mês atual | 
+| `date` | Mostra a data |
+| `grep [nome do arquivo]` | Busca um texto específico dentro de algum arquivo |
+| `[comando] | [comando] ` | Possibilita usar dois comandos juntos |
+
