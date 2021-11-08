@@ -76,5 +76,58 @@ Primeiramente, criamos um arquivo.txt e em seguida o comando `nano.txt` para abr
 | `cal` | Mostra o calendário do mês atual | 
 | `date` | Mostra a data |
 | `grep [nome do arquivo]` | Busca um texto específico dentro de algum arquivo |
-| `[comando] | [comando] ` | Possibilita usar dois comandos juntos |
+| `[comando] \| [comando]` | Possibilita usar dois comandos juntos |
+| `more` | Paginação de textos |
+| `less` | Paginação de textos |
+| `&` | Permite usar dois comandos separadamente, cada um com sua saída no terminal |
+| `&&` | Permite usar dois comandos separadamente, com uma só saída |
+
+## Comandos de Diretórios de Linux
+
+| Descrição | Diretório |
+| --- | --- |
+| Binários principais dos usuários | /bin/ |
+| Arquivos do sistema de Boot | /boot/ |
+| Arquivos de dispositivos | /dev/ |
+| Arquivos de configuração do sistema | /etc/ |
+| Diretório dos usuários comuns do sistema | /home/ |
+| Bibliotecas essenciais do sistema e os módulos do kernel | /lib/ |
+| Diretório de montagem e dispositivos | /media/ |
+| Diretório de montagem de dispositivos - mesmo que "media" | /mnt/ |
+| Instalação de programas não oficiais da distribuição ou por conta do usuário | /opt |
+| Armazena arquivos executáveis que representam comandos administrativos. Exemplo: shutdown | /sbin/ |
+| Diretório para dados de serviços fornecidos pelo sistema | /srv/ |
+| Diretório para arquivos temporários | /tmp/ |
+| Segunda hierarquia do sistema, onde ficam os usuários comuns do sistema e programas | /usr/ |
+| Diretório arquivos variáveis gerados pelos programas do sistema. Exemplo: logs, histórico da impressora, e-mail e cache | /var/ |
+| Diretório do usuário root - O usuário root tem o total poder sobre o sistema. Podendo instalar, desinstalar, configurar | /root/ |
+| Diretório virtural controlado pelo kernel | /proc/ |
+
+| Comando | Função |
+| --- | --- |
+| Arquivo de informações do processador | `cat/proc/cpuinfo` |
+| Exibir informações do processador | `lscpu` |
+| Arquivo de informações da memória | `cat /proc/meminfo` |
+| Exibir informações da memória física e virtual | `free` |
+| Exibir informações detalhadas sobre o hardware | `lshw` |
+| Exibir informações sobre hardware | `lshw -short` |
+| Exibir o nome do kernel do sistema | `uname` |
+| Exibir a versão do kernel | `uname -r` |
+| Exibir a arquitetura do kernel | `uname -m` |
+| Exibir a arquitetura do kernel | `arch` |
+| Exibir todas as placas PCI conectadas | `lspci` |
+| Exibir todos os dispositivos USB conectados | `lsusb` |
+| Exibir o epsaço de cada arquivo e pasta no diretório pessoal consome no hd | `du -h ~` |
+| Reiniciar o sistema | `reboot` |
+| Reinicia o sistema | shutdown `-r` |
+| Desliga o sistema rapidamente | `shutdown -h now` |
+| Cancelar o shutdown sendo executado | `-c` |
+| Desligar o sistema | `-h` |
+| Suspender o funcionamento da máquina | `-H` |
+| Desligar o sistema imediatamente | `sudo shutdown -h now` |
+| Reiniciar o sistema imediatamente | `sudo shutdown -r now` |
+| Informações sobre reinicialização do sistema | `last reboot` |
+| Mostrar as tabelas de roteamento do kernel | `route -n` |
+| Mostrar o tempo de processo de um comando | `time [comando]` |
+| Tempo que o sistema está rodando | `uptime` |
 
