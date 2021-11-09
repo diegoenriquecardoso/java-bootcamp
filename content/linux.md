@@ -33,23 +33,6 @@ Para acessá-lo basta buscá-lo na Taskbar ou utilizar o comando `Ctrl + Alt + T
 | `rm - r ou rmdir + [nome do diretório]` | Remove um diretório |
 | `rm [nome do arquivo]` | Remove um arquivo |
 
-## Exercícios Práticos de Revisão:
-1. Abra o Terminal no Linux
-2. Crie uma pasta de nome "Ubuntu" dentro da pasta Documentos
-3. Mova a pasta Ubuntu para o diretório pessoal
-4. Crie um arquivo vazio de nome teste.txt dentro da pasta Ubuntu
-5. Renomeie o arquivo como linux.txt
-6. Crie uma cópia deste arquivo na pasta Downloads
-7. Exiba todos os comandos digitados no terminal
-8. Execute a ajuda do comando ls
-9. Execute o manual do comando mv
-10. Pare a execução do manual
-11. Saia do terminal utilizando sequência de teclas
-12. Exclua a pasta Ubuntu
-13. Exclua o arquivo linux.txt
-14. Limpe o terminal
-15. Utilize o comando para sair do terminal
-
 ## Lidando com arquivos .txt
 
 Primeiramente, criamos um arquivo.txt e em seguida o comando `nano.txt` para abri-lo em um editor de textos.
@@ -130,4 +113,58 @@ Primeiramente, criamos um arquivo.txt e em seguida o comando `nano.txt` para abr
 | Mostrar as tabelas de roteamento do kernel | `route -n` |
 | Mostrar o tempo de processo de um comando | `time [comando]` |
 | Tempo que o sistema está rodando | `uptime` |
+
+## Rede, protocolos e Interfaces de Rede
+
+### Redes 
+> Rede de computadores é um conjunto de equipamentos interligados de maneira a trocarem informações e compartilharem recursos, como arquivos de dados gravados, impressoras, modems, softwares e outros equipamentos (Sousa, 1999)
+
+**Rede Wan**
+**Wide Area Network** ou **World Area Network** é uma rede geograficamente distribuída.
+
+**Rede Man**
+**Metropolitan Area Network** é uma rede metropolitana que interligam várias redes locais.
+
+**Rede Lan**
+**Local Area Network** é uma rede local de uma forma geral em um único prédio ou campus.
+
+### Protocolos
+> Protocolo é a "linguagem" usada pelos dispositivos de uma rede de modo que eles consigam se entender (Torres, 2004).
+
+**IP - Protocolo de Internet - Endereço IP**: Números que identificam seu computador em uma rede.
+
+**ICMP - (Internet Control Message Protocol)**: Tem por objetivo prover mensagens de controle na comunicação entre nós.
+
+**DNS - Domain Name Server**: Esse protocolo de aplicação tem por função identificar endereços IP e manter uma tabela com os endereços dos caminhos de algumas redes.
+
+### Interfaces de Rede
+Interface de rede é um software e/ou hardware que faz a comunicação em uma rede de computadores. As interfaces de rede no Linux estão localizadas no diretório `/dev` e a maioria é criada dinamicamente pelos softwares quando são requisitadas. Exemplo: eth0 - Placa de rede Ethernet - cabeada A interface loopback é um tipo especial de interface que permite fazer conexões com você mesmo, com ela você pode testar vários programas de rede sem interferir em sua rede padrão, o endereço IP 127.0.0.1 foi escolhido para loopback.
+
+## Fundamentos e Comandos de Rede
+
+| Comando | Função |
+| --- | --- |
+| ifconfig | Exibe informaçõe sobre interface da rede e ip |
+| hostname | Exibe informações sobre o Host |
+| hostname -i | Exibe o número de endereço loopback do Host |
+| hostname -I | Exibe o endereço de IP da rede | 
+| dig host | Exibe informações sobre o DNS de um host |
+| dig host +short | Exibe o número de IP de um host |
+| w | Exibe informações detalhadas sobre o usuário do computador na rede |
+| who | Exibe informações curtas sobre o usuáario do computador na rede |
+| whoami | Exibe o nome do usuário do computador na rede |
+| traceroute host | Exibe informações sobre a rota de sua rede até o host desejado |
+| ping host | Testa um host |
+| finger | Exibe informações sobre o usuário do computador na rede |
+
+# Controle de Usuários
+
+
+
+
+
+
+
+
+ 
 
