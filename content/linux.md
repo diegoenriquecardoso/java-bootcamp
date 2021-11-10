@@ -159,9 +159,49 @@ Interface de rede é um software e/ou hardware que faz a comunicação em uma re
 
 # Controle de Usuários
 
+## Comandos Relacionados a Usuários
 
+| Função | Comando |
+| --- | --- |
+| Adicionar um usuário | `adduser [nome de usuario]` (obs.: para adicionarmos um usuário, como root, utilizamos sudo > `sudo adduser [nome de usuário]`|
+| Trocar de usuário | `su` (ex: `su [nome de usuario que deseja acessar]` |
+| Trocar para usuário root | `sudo su` |
+| Alterar senha do usuário | `passwd [nome de usuario]` |
+| Exibir informações de login dos usuários | `lastlog` |
+| Exibir uma lista de entrada e saída do usuário no sistema | `last [nome de usuario]` |
+| Exibir o nome do usuário atual logado no sistema | `logname` |
+| Exibir todos os identificadores do usuário | `id` |
+| Exibir todos os usuários | `cat /et/passwd/` |
+| Remover um usuário e a pasta pessoal do mesmo |`userdel -r [nome do usuario]` |
 
+## Comandos Relacionados a Grupos
 
+| Função | Comando |
+| --- | --- |
+| Exibir todos os grupos do sistema | `cat /etc/group` |
+| Exibir todos os grupos de um usuário | `groups` |
+| Criar um grupo | `addgroups [nome do grupo]`|
+| Adicionar um usuário a um grupo | `adduser [usuario] [grupo]` ou `gpasswd -a [usuario] [grupo]`|
+| Remover um usuário de um grupo | `gpasswd -d [usuario] [grupo]` |
+| Remover um grupo | `groupdel [grupo]` |
+
+## Permissões
+
+Permissões em arquivos e diretórios servem para restringir acessos como: leitura, escrita e execução, onde:
+
+`r` - read(leitura), `w` - write(escrita), `x` - eXecution (execução)
+
+**ls -lh**: Verificar permissões em um diretório
+**chmod**: Muda as permissões de um arquivo, utilizando o número respectivo em base octal.
+
+## Modo Octal
+
+Composto por números sobe a base 8, onde: O primeiro dígito representa o dono  do ficheiro/diretório (u). O segundo dígito representa o grupo (g). O terceiro dígito representa os outros (o). As permissões são especificadas para cada grupo.
+
+| owner | group | other |
+| --- | --- | --- |
+| r/w/x | r/w/x | r/w/x |
+| 4/2/1 | 4/2/1 | 4/2/1 |
 
 
 
