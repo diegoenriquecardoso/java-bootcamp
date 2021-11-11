@@ -230,6 +230,20 @@ Um "arquivador" junta vários arquivos em um só, mas pode ser usado em conjunto
 
 # Gerenciamento de Pacotes
 
+Pacotes são programas colocados dentro de um arquivo, identificados por sua extensão e incluem arquivos necessários para a instalação de programa. Existem pacotes com a extensão .deb, .rpm e outros.
+
+Gerenciadores de Pacotes são sistemas que possuem resolução automática de dependências entre pacotes, método fácil de instalação de pacote. Exemplos de gerenciadores: dpgk, apt, yum e rpm.
+
+| Nome do gerenciador | Comando de instalação | Comando de atualização | Comando de remoção | Atualização do Sistema |
+| --- | --- | --- | --- | --- |
+| apt | `sudo apt install [pacote]` | `sudo apt upgrade [pacote]` | `sudo apt remove [pacote]` | `apt update && apt upgrade` |
+| rpm | `rpm -ivh [pacote.rpm]` | `rpm -U [pacote.rpm]` | `rpm -e [pacote.rpm` |
+| yum | `sudo yum install [pacote]` | `sudo yum update [pacote]` | `sudo yum remove [pacote]` |
+
+| Nome do gerenciador | Comando de instalação | Comando de descrição do pacote | Comando de remoção |
+| --- | --- | --- | --- |
+| dpkg | `sudo dpkg -i [pacote]` | `sudo dpkg -I [pacote.deb]` | `sudo dpkg -r [nomedopacote]` |
+
 
 
  
