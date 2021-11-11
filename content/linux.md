@@ -204,9 +204,10 @@ Composto por números sobe a base 8, onde: O primeiro dígito representa o dono 
 | r/w/x | r/w/x | r/w/x |
 | 4/2/1 | 4/2/1 | 4/2/1 |
 
-### Compactação, Descompactação e Arquivamento
+# Compactação, Descompactação e Arquivamento
 
-Compactadores são progrmas que diminuem o tamanho de um arquivo ou diretório.
+## Compactadores 
+São progrmas que diminuem o tamanho de um arquivo ou diretório.
 
 Extensões identificam o tipo de um arquivo e o programa necessário para manipular o mesmo, dezenas de extensões identificam arquivos compactados, quando um arquivo é compactado, uma extensão é adicionada ao nome do arquivo. Ex: Se um arquivo é compactado pelo programa rar, o mesmo receberá a extensão .rar
 
@@ -225,7 +226,9 @@ Um "arquivador" junta vários arquivos em um só, mas pode ser usado em conjunto
 
 | Nome do arquivador | Comando de uso | Comando de descompactação |
 | --- | --- | --- |
-| tar | `tar -cf [nome do arquivo que será gerado] [arquivo(s) que serão arquivados]` | `tar -xvf [nome do arquivo.tar.gz]` | 
+| tar | `tar -cf [nome do arquivo que será gerado] [arquivo(s) que serão arquivados]` | `tar -xvf [nome do arquivo.tar.gz]` |
+
+# Gerenciamento de Pacotes
 
 
 
