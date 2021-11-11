@@ -32,6 +32,7 @@ Para acessá-lo basta buscá-lo na Taskbar ou utilizar o comando `Ctrl + Alt + T
 | `cp [nome do arquivo] [endereço]` | Copia um arquivo para um endereço específico |
 | `rm - r ou rmdir + [nome do diretório]` | Remove um diretório |
 | `rm [nome do arquivo]` | Remove um arquivo |
+| `alias` [apelido]='[comando]' | dá um apelido para um comando |
 
 ## Lidando com arquivos .txt
 
